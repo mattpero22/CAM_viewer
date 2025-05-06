@@ -14,9 +14,12 @@
     <model-viewer
         class="example"
         alt="first example" 
-        src="{{ url_for('static', filename='models/problem9_part.glb') }}" 
+        src="{{ url_for('static', filename='models/problem105_part.glb') }}" 
         shadow-intensity="1" 
         camera-controls touch-action="pan-y">
+        <effect-composer>
+            <outline></outline>
+        </effect-composer>
     </model-viewer>
 </body>
 
